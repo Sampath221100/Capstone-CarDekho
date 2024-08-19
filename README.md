@@ -1,18 +1,18 @@
 # Capstone-CarDekho
 
-Problem Statement:
+## Problem Statement:
 
-Objective:
+### Objective:
 
 Imagine you are working as a data scientist in Car Dheko, your aim is to enhance the customer experience and streamline the pricing process by leveraging machine learning. You need to create an accurate and user-friendly streamlit tool that predicts the prices of used cars based on various features. This tool should be deployed as an interactive web application for both customers and sales representatives to use seamlessly.
 
-Project Scope:
+### Project Scope:
 
 We have historical data on used car prices from CarDekho, including various features such as make, model, year, fuel type, transmission type, and other relevant attributes from different cities. Your task as a data scientist is to develop a machine learning model that can accurately predict the prices of used cars based on these features. The model should be integrated into a Streamlit-based web application to allow users to input car details and receive an estimated price instantly.
 
-Approach:
+## Approach:
 
-1.Data Processing:
+### 1.Data Processing:
 
 a) Import and concatenate:
 * Import all city’s dataset which is in unstructured format.
@@ -42,7 +42,7 @@ f) Removing Outliers:
 * Identify and remove or cap outliers in the dataset to avoid skewing the model.
 * Use IQR (Interquartile Range) method or Z-score analysis.
 
-2. Exploratory Data Analysis (EDA):
+### 2. Exploratory Data Analysis (EDA):
 
 a) Descriptive Statistics: 
 * Calculate summary statistics to understand the distribution of data. i.e., Mean, median, mode, standard deviation, etc.
@@ -55,7 +55,7 @@ c) Feature Selection:
 * Identify important features that significantly impact the car prices.
 * Use techniques like correlation analysis, feature importance from models, and domain knowledge.
 
-3. Model Development:
+### 3. Model Development:
 
 a) Train-Test Split: 
 * Split the dataset into training and testing sets to evaluate model performance.
@@ -73,7 +73,7 @@ d) Hyperparameter Tuning:
 * Optimize model parameters to improve performance.
 * Use techniques like Grid Search or Random Search.
 
-4. Model Evaluation:
+### 4. Model Evaluation:
 
 a) Performance Metrics: 
 * Evaluate model performance using relevant metrics.
@@ -82,7 +82,7 @@ a) Performance Metrics:
 b) Model Comparison:
 * Compare different models based on evaluation metrics to select the best performing model.
 
-5. Optimization:
+### 5. Optimization:
    
 a) Feature Engineering: 
 * Create new features or modify existing ones to improve model performance.
@@ -92,7 +92,7 @@ b) Regularization:
 * Apply regularization techniques to prevent overfitting.
 * Lasso (L1) and Ridge (L2) regularization.
 
-6. Deployment:
+### 6. Deployment:
    
 a) Streamlit Application: 
 * Deploy the final model using Streamlit to create an interactive web application.
@@ -102,7 +102,7 @@ b) User Interface Design:
 * Ensure the application is user-friendly and intuitive.
 * Provide clear instructions and error handling.
 
-Results: 
+## Results: 
 
 * A functional and accurate machine learning model for predicting used car prices.
 * Comprehensive analysis and visualizations of the dataset.
